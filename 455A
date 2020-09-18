@@ -37,6 +37,9 @@ int main(){
         }
     }
 
+    if(a[1] != 0)
+        s += a[1];
+
     cout << s;
 
     return 0;
